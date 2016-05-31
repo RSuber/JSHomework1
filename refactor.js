@@ -108,7 +108,7 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-
+str.split('').reverse().join('');
 
 // -----------------------------------------------
 
@@ -142,11 +142,12 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
-var spanishColor = function (colorName) {
-  var colorName = {rojo:"#ff0000", blanco:"#ff0000",
+var spanishColor (colorName) {
+  var colorObject = {rojo:"#ff0000", blanco:"#ff0000",
                       azul:"#0000ff", verde:"#00ff00",
                       negro:"#000000" }
 
+return colorObject [colorName];
 }
 
 // -----------------------------------------------
